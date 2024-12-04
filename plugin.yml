@@ -1,0 +1,14 @@
+---
+name: ShutdownUI
+version: 0.0.1
+main: Tatsomi\ShutdownUI\Main
+api: 5.0.0
+src-namespace-prefix: Tatsomi\ShutdownUI
+
+commands:
+  sdui:
+    permission: sdui.cmd
+    description: §bOpen Shutdown §3UI
+permissions:
+  sdui.cmd:
+    default: op
